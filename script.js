@@ -11,14 +11,14 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'Project 1',
             description: 'Brief description of Project 1.',
             category: 'web',
-            image: 'https://via.placeholder.com/350x200',
+            image: 'https://socialify.git.ci/zaid-commits/Work-Tracker/image?description=1&font=Rokkitt&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Light',
             detailPageUrl: 'project1.html'
         },
         {
             title: 'Project 2',
             description: 'Brief description of Project 2.',
             category: 'mobile',
-            image: 'https://via.placeholder.com/350x200',
+            image: 'https://socialify.git.ci/zaid-commits/Password-Manager/image?description=1&font=Rokkitt&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Light',
             detailPageUrl: 'project2.html'
         },
         // Add more projects as needed
