@@ -1,11 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 1 Details</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tailwindcss/ui@latest/dist/tailwind-ui.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>hlelo</div>
+  <header class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Project 1 Details</h1>
+      <a href="index.html" class="btn btn-primary px-4 py-2 rounded-md bg-blue-500 text-white hover:bg-blue-600">Back to Home</a>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-8">
+    <div class="mb-6">
+      <img src="https://via.placeholder.com/800x400" class="mx-auto d-block img-fluid rounded-lg max-w-full" alt="Project 1">
+    </div>
+
+    <div class="mb-6">
+      <h2 class="text-2xl font-bold mb-2">Project Description</h2>
+      <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu felis vel enim efficitur maximus. Nullam eu malesuada nisl. Donec vel eros ac nisi hendrerit viverra. Sed vel risus sed nisi vehicula mollis. Vivamus ac purus sed urna efficitur gravida. Nullam volutpat dolor non lectus ultrices, vel bibendum ex pulvinar.</p>
+    </div>
+
+    <div class="mb-6">
+      <h2 class="text-2xl font-bold mb-2">Features</h2>
+      <ul class="list-disc pl-4 text-gray-600">
+        <li>Feature 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <li>Feature 2: Sed eu felis vel enim efficitur maximus.</li>
+        <li>Feature 3: Nullam eu malesuada nisl. Donec vel eros ac nisi hendrerit viverra.</li>
+        <li>Feature 4: Sed vel risus sed nisi vehicula mollis.</li>
+      </ul>
+    </div>
+
+    <div class="mb-6">
+      <h2 class="text-2xl font-bold mb-2">Technologies Used</h2>
+      <div class="flex flex-wrap">
+        <span class="bg-gray-200 text-gray-800 px-2 py-1 rounded-full mr-2 mb-2">HTML</span>
+        <span class="bg-gray-200 text-gray-800 px-2 py-1 rounded-full mr-2 mb-2">CSS</span>
+        <span class="bg-gray-200 text-gray-800 px-2 py-1 rounded-full mr-2 mb-2">JavaScript</span>
+        <span class="bg-gray-200 text-gray-800 px-2 py-1 rounded-full mr-2 mb-2">React</span>
+        <span class="bg-gray-200 text-gray-800 px-2 py-1 rounded-full mr-2 mb-2">Node.js</span>
+      </div>
+    </div>
+
+    <div class="mb-6">
+      <h2 class="text-2xl font-bold mb-2">Download</h2>
+      <a href="#" class="btn btn-primary px-4 py-2 rounded-md bg-blue-500 text-white hover:bg-blue-600">Download Project Files</a>
+    </div>
+
+    <div class="mb-6">
+      <h2 class="text-2xl font-bold mb-2">Live Demo</h2>
+      <p class="text-gray-600 mb-2">You can view a live demo of this project by clicking the button below:</p>
+      <a href="#" class="btn btn-secondary px-4 py-2 rounded-md bg-gray-500 text-white hover:bg-gray-600" target="_blank">View Live Demo</a>
+    </div>
+
+    <div class="mb-6">
+      <h2 class="text-2xl font-bold mb-4">Gallery</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <img src="https://via.placeholder.com/400x300" class="rounded-lg" alt="Project Screenshot 1">
+        <img src="https://via.placeholder.com/400x300" class="rounded-lg" alt="Project Screenshot 2">
+        <img src="https://via.placeholder.com/400x300" class="rounded-lg" alt="Project Screenshot 3">
+        <img src="https://via.placeholder.com/400x300" class="rounded-lg" alt="Project Screenshot 4">
+        <img src="https://via.placeholder.com/400x300" class="rounded-lg" alt="Project Screenshot 5">
+        <img src="https://via.placeholder.com/400x300" class="rounded-lg" alt="Project Screenshot 6">
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto px-4 text-center">
+      &copy; 2023 My Project Showcase
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
