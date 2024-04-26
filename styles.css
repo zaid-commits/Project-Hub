@@ -1,0 +1,55 @@
+/* styles.css */
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-outline-light {
+    border: 2px solid #fff;
+    color: #fff;
+    transition: border 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x1080');
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/768x432');
+    }
+}
+
+.text-primary {
+    color: #4299e1;
+}
+
+#mobile-menu {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease;
+}
+
+#mobile-menu.open {
+    display: block;
+}
