@@ -182,10 +182,12 @@
                 <p>Have a project in mind? Let's discuss it!</p>
             </div>
             <form action="https://api.web3forms.com/submit" method="POST" class="flex flex-col items-center">
+                <input type="hidden" name="subject" value="New Submission from Web3Froms">
+                <input type="hidden" name="custom_subject" id="custom_subject" value="">
                 <input type="hidden" name="access_key" value="cbc86397-bbc1-4067-8743-947bf920e5bb">
                 <div class="mb-4 w-full max-w-sm">
                     <label for="name" class="block font-bold mb-2">Name</label>
-                    <input type="text" name="name" id="name" class="form-input w-full" required>
+                    <input type="text" name="first_name" id="name" class="form-input w-full" required>
                 </div>
                 <div class="mb-4 w-full max-w-sm">
                     <label for="email" class="block font-bold mb-2">Email</label>
@@ -193,11 +195,10 @@
                 </div>
                 <div class="mb-4 w-full max-w-sm">
                     <label for="message" class="block font-bold mb-2">Message</label>
-                    <textarea id="message" name="Message on projectsofzaid.in" class="form-textarea w-full" rows="5" required></textarea>
+                    <textarea id="message" name="Message on projectsofzaid.netlify.app" class="form-textarea w-full" rows="5" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary px-6 py-3 rounded-full">Submit</button>
             </form>
-            
 
     <footer class="bg-gray-800 text-white py-4">
         <div class="container mx-auto px-4 text-center">

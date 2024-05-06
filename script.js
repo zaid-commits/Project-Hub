@@ -129,3 +129,17 @@ document.addEventListener('DOMContentLoaded', function() {
         mobileMenu.classList.toggle('md:hidden');
     });
 });
+
+const form = document.querySelector('form');
+const firstNameInput = document.getElementById('name');
+const customSubjectInput = document.getElementById('custom_subject');
+
+form.addEventListener('submit', function (event) {
+    event.preventDefault(); // Prevent the form from submitting normally
+
+    // Set the custom subject with the user's name
+    customSubjectInput.value = `${firstNameInput.value} sent a message from your project showcase website`;
+
+    // Submit the form
+    form.submit();
+});
