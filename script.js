@@ -132,13 +132,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 const form = document.querySelector('form');
 const firstNameInput = document.getElementById('name');
-const customSubjectInput = document.getElementById('custom_subject');
+const customSubjectInput = document.getElementById('Subject');
 
 form.addEventListener('submit', function (event) {
     event.preventDefault(); // Prevent the form from submitting normally
 
     // Set the custom subject with the user's name
-    customSubjectInput.value = `${firstNameInput.value} sent a message from your project showcase website`;
+    customSubjectInput.value = `${firstNameInput.value} sent a message from your projectsofzaid website`;
 
     // Submit the form
     form.submit();
